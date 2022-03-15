@@ -13,6 +13,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
     public static List<Integer> dynamicArray(int n, List<List<Integer>> queries) {
         // www.hackerrank.com/challenges/dynamic-array/problem
+        // java 8
         List<List<Integer>>  arr = new ArrayList<>();       // Declare a 2-dimensional array  
         for (int i = 0; i < n; i++) {
             arr.add(new ArrayList<>());                     // arr is n empty arrays. 
